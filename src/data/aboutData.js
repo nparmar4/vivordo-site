@@ -1,6 +1,6 @@
 export const aboutData = {
-    title: "Who I am",
-    description1: "My name's Jane. I'm a web designer and developer based in Southampton, UK.",
-    description2: "During the day I work as a lead developer at a local agency and in the evening I  work on freelance projects and utilize the time to built my own products. I spent my leisure hours writing articles and poetry. Right now I'm also trying a hand at machine learning and AI. I love to learn and explore new arenas.",
+    title: "Our Mission",
+    description1: "At Vivordo, we empower individuals and organizations to master stress through a cutting-edge wearable and an intuitive app dashboard. Our wearable continuously measures cortisol, while the dashboard turns this data into actionable insights, helping users understand stress patterns, improve wellbeing, and optimize performance.",
+    description2: "By combining wearable technology with powerful analytics, we make stress management measurable, personal, and actionable at scale.",
     image: 2
 }
