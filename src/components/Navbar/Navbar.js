@@ -149,16 +149,16 @@ function Navbar() {
             Home
           </NavLink>
           <NavLink to='/#about' smooth spy duration={2000} className={classes.navLinkItem}>
-            About
+            Mission
           </NavLink>
           <NavLink to='/#resume' smooth spy duration={2000} className={classes.navLinkItem}>
-            Resume
+            Pipeline
           </NavLink>
           <NavLink to='/#services' smooth spy duration={2000} className={classes.navLinkItem}>
-            Services
+            Team
           </NavLink>
           <NavLink to='/#blog' smooth spy duration={2000} className={classes.navLinkItem}>
-            Blog
+            Sponsors
           </NavLink>
           <NavLink to='/#contacts' smooth spy duration={2000} className={classes.navLinkItem}>
             Contact
@@ -196,10 +196,10 @@ function Navbar() {
           <div className='navLink--container'>
             {[
               { to: '/', icon: <IoHomeSharp />, label: 'Home' },
-              { to: '/#about', icon: <FaUser />, label: 'About' },
-              { to: '/#resume', icon: <HiDocumentText />, label: 'Resume' },
-              { to: '/#services', icon: <BsFillGearFill />, label: 'Services' },
-              { to: '/#blog', icon: <FaFolderOpen />, label: 'Blog' },
+              { to: '/#about', icon: <FaUser />, label: 'Mission' },
+              { to: '/#resume', icon: <HiDocumentText />, label: 'Pipeline' },
+              { to: '/#services', icon: <BsFillGearFill />, label: 'Team ' },
+              { to: '/#blog', icon: <FaFolderOpen />, label: 'Sponsors' },
               { to: '/#contacts', icon: <MdPhone />, label: 'Contact' },
             ].map(({ to, icon, label }, i) => (
               <Fade left key={i}>
