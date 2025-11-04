@@ -52,10 +52,10 @@ function Navbar() {
     },
 
     navLinkItem: {
-      fontFamily: 'var(--primaryFont)',
+      fontFamily: 'Lato, sans-serif',
       color: '#7d6be3',
       fontSize: '1.1rem',
-      fontWeight: 600,
+      fontWeight: 400,
       textDecoration: 'none',
       transition: 'transform 0.2s ease',
       '&:hover': {

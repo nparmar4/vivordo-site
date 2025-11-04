@@ -1,18 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+.navbar__title {
+  font-size: 1.75rem;
+  font-family: 'Lato', sans-serif; /* skinnier font */
+  font-weight: 300; /* thin/light */
+  letter-spacing: 1px;
+  color: #7d6be3;
+  margin: 0;
+}
+
 .navbar {
   width: 100%;
   position: fixed;
   top: 0;
   left: 0;
   z-index: 1000;
-  background-color: transparent;
+  backdrop-filter: blur(20px);
+  background: rgba(255, 255, 255, 0.2); /* translucent */
 }
 
 .navbar--container {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  padding: 1rem 4rem;
-  background: transparent;
+  justify-content: flex-end;
+  padding: 0.75rem;
+  width: 100%;
 }
 
 .navbar h1 {

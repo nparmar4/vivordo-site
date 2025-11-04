@@ -14,9 +14,9 @@
 }
 
 .landing--img {
-  --img-size: 400px;
+  --img-size: 300px;
   position: absolute;
-  left: 35%;
+  left: 55%;
   transform: translateX(-50%);
   width: var(--img-size);
   height: var(--img-size);
@@ -27,11 +27,13 @@
 }
 
 .landing--container-left {
-  flex: 35%;
+  flex: 55%;
   height: 100%;
   display: flex;
   align-items: flex-end;
   justify-content: flex-start;
+  background-image: url('../../theme/Landing_Image.png');
+  background-size: cover;
 }
 
 .lcl--content {
@@ -53,7 +55,7 @@
 }
 
 .landing--container-right {
-  flex: 65%;
+  flex: 45%;
   height: 100%;
   background-color: #eaeaea;
   display: flex;
@@ -67,6 +69,13 @@
   margin-right: 7rem;
   font-family: var(--primaryFont);
   font-style: normal;
+}
+
+.landing--container-left {
+  width: 55vw;
+}
+.landing--container-right {
+  width: 45vw;
 }
 
 .lcr--content h6 {
